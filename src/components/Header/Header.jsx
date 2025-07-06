@@ -22,7 +22,7 @@ const Header = ({ sidebarOpen, setSidebarOpen }) => {
             <FaBars />
           </div>
           <a href="#home">
-            <p className="text-3xl font-bold">Logo</p>
+            <p className="text-2xl md:text-3xl font-bold">Logo</p>
           </a>
         </div>
         <div
