@@ -71,7 +71,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="sectionContent container mx-auto px-4" id="shop">
+      <section className="sectionContent container mx-auto px-4 max-[400px]:px-0" id="shop">
         <div class="sectionIntro">
           <div class="headerInfo container">
             <h2 class="title font-semibold text-2xl">Our Products</h2>
@@ -81,7 +81,7 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div className="contentWrapper grid grid-cols-2 md:grid-cols-3 gap-3 px-2 mb-5">
+        <div className="contentWrapper grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-3 px-2 mb-5">
           {defaultProducts?.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
